@@ -5,17 +5,20 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
   
-  <div class="card">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+  <div className='App' >
+    <div className='flex flex-col items-center justify-center'>
+      <div className='mx-2 bg-green-500'>Elemento 1</div>
+      <div className='mx-2 bg-red-400'>Elemento 2</div>
+      <div className='mx-2 bg-yellow-400'>Elemento 3</div>
+      <div className='bg-red-400'> hola mundo tallwind</div>
+      <button className='boton' >
+        Haz click aquí
+      </button>
+      <button className='boton' >
+        Otro boton
+      </button>
 </div>
-
+</div>
     
   );
 }
