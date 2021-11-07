@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    
+    <div color>
+      ESTO ES SASS
+    </div>
   );
 }
 
